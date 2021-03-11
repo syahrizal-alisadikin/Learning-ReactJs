@@ -1,7 +1,11 @@
 import React from "react";
 import "./link.scss";
-const Link = ({ title }) => {
-  return <p className="link">{title}</p>;
+const Link = ({ title, ...rest }) => {
+  return (
+    <p className="link" {...rest}>
+      {title}
+    </p>
+  );
 };
 
 export default Link;

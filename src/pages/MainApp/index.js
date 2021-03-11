@@ -12,14 +12,14 @@ const MainApp = () => {
       <div className="content-wrapper">
         <Router>
           <Switch>
-            <Route path="/" exact>
-              <Home />
-            </Route>
             <Route path="/create-blog">
               <CreateBlog />
             </Route>
             <Route path="/detail-blog">
               <DetailBlog />
+            </Route>
+            <Route path="/" exact>
+              <Home />
             </Route>
           </Switch>
         </Router>

@@ -3,6 +3,10 @@
   display: flex;
   flex-direction: column;
   .content-wrapper {
+    max-width: 1000px;
+    // background-color: cadetblue;
+    width: 100%;
+    margin: auto;
     flex: 1;
   }
 }
